@@ -44,7 +44,7 @@ export default function App() {
             alt={`Flag of ${country.name.common}`}
             style={imageStyle}
           />
-          <h2>{country.name.abbr}</h2>
+          <h2>{country.name}</h2>
         </div>
       ))}
     </div>
